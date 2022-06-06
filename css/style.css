@@ -33,15 +33,21 @@ header{
 
 /*regole main*/
 
+main{
+    width: 90%;
+    margin:auto;
+}
+
 .container{
     background-image: url(https://picsum.photos/200/300);
     background-size: cover;
     background-position: center;
-    width: 250px;
+    width: calc(100% / 7);
     height: 180px;
     padding: 7px;
     display: inline-block;
     position: relative;
+    margin-top: 10px;
     margin: auto;
 }
 
